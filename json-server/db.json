@@ -1,0 +1,25 @@
+{
+  "inventory": [
+    {
+      "company": "Bill's Repairz",
+      "date": "5/25/2024",
+      "amount": "793.74",
+      "status": "completed",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "company": "John's Pool Cleaning",
+      "date": "5/12/2024",
+      "amount": "530.00",
+      "status": "in process"
+    },
+    {
+      "id": "3",
+      "company": "Duke Energy",
+      "date": "5/1/2024",
+      "amount": "987.36",
+      "status": "completed"
+    }
+  ]
+}
