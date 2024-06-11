@@ -1,8 +1,13 @@
 # Run JSON Server
 
 ```
-cd json-server
-npx json-server db.json
+cd json-server && npx json-server db.json
+```
+
+# Run Vite
+
+```
+npm run dev
 ```
 
 # React + TypeScript + Vite
