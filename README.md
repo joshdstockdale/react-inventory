@@ -1,6 +1,7 @@
 # Run JSON Server
 
 ```
+cd json-server
 npx json-server db.json
 ```
 
