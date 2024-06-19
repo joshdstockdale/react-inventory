@@ -1,3 +1,5 @@
+Simple Inventory App built with React and shadcn using react-query.
+
 # Run JSON Server
 
 ```

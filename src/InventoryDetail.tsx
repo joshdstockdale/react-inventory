@@ -76,7 +76,7 @@ export default function InventoryDetail() {
     mutationFn: (formData: TInventoryUpdate) => saveInventoryDetail(formData),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["inventory"] });
-      navigate("/inventory");
+      navigate("/");
     },
   });
   function onSubmit(values: z.infer<typeof formSchema>) {
@@ -84,7 +84,7 @@ export default function InventoryDetail() {
   }
 
   return (
-    <Dialog open={true} onOpenChange={() => navigate("/inventory")}>
+    <Dialog open={true} onOpenChange={() => navigate("/")}>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>Add Invoice</DialogTitle>
